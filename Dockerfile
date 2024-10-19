@@ -1,9 +1,9 @@
 FROM gapsystem/gap-docker
 
-MAINTAINER Alexander Konovalov <alexander.konovalov@st-andrews.ac.uk>
+MAINTAINER Boris Durakov <ya.borgch@yandex.ru>
 
-COPY --chown=1000:1000 . $HOME/try-gap-in-jupyter
+COPY --chown=1000:1000 . $HOME/SL-2-3
 
 USER gap
 
-WORKDIR $HOME/try-gap-in-jupyter
+WORKDIR $HOME/SL-2-3
